@@ -3,6 +3,7 @@ import './App.css';
 import Kursus from "./state/state";
 import Materi from './props/Prop';
 import './props/styel.css';
+import Header from './component/Header';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </a>
       </header> */}
       <div className="wraperapp">
+        <Header/>
         <Kursus />
         <p>contoh state</p>
         <hr />
